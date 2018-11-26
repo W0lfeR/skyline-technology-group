@@ -1,0 +1,2 @@
+.half{float:left;width:500%;padding:0 1em}.tab,.tab label{position:relative}.tab{margin-bottom:6px;width:100%;color:#fff;overflow:hidden}.tab input{position:absolute;opacity:0;z-index:-1}.tab label{display:block;padding:0 0 0 1em;background:#16a085;font-weight:700;line-height:3;cursor:pointer}.tab-content{max-height:0;overflow:hidden;background:#1abc9c;-webkit-transition:max-height .35s;transition:max-height .35s}.tab-content p{margin:1em}.tab input:checked~.tab-content{max-height:100vh}
+/*# sourceMappingURL=map/faq.css.map */
