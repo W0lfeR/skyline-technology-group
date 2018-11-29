@@ -41,14 +41,14 @@ gulp.task('serve', function() {
     //}
     //});
 
-    //browserSync.init({
-    //server: {
-    //baseDir: "./docs/"
-    //}
-    //});
+    browserSync.init({
+    server: {
+    baseDir: "./docs/"
+    }
+    });
 
     gulp.watch(path.SCSS_SRC, ['scss']);
-    //gulp.watch(path.HTML_SRC, ['jekyll']);
+    gulp.watch(path.HTML_SRC, ['jekyll']);
     gulp.watch(path.HTML_SRC).on('change', browserSync.reload);
 
 });
